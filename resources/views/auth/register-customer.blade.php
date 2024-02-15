@@ -265,7 +265,7 @@
                                                    <small class="text-danger">{{ $message }}</small>
                                                 @enderror
                                             </div>
-
+                                            {{-- 000 --}}
                                             <div class="form-group">
                                                 @error('g-recaptcha-response')
                                                    <small class="text-danger">{{ $message }}</small>
